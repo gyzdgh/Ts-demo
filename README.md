@@ -7,6 +7,7 @@ $ npm install typescript@2.9.2 -g
 $ npm install ts-node@7.0.0 -g
 
 ##### 添加一个命令行程序
+
 ---
 
 首先添加下面这句
