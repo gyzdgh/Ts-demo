@@ -12,6 +12,7 @@
         console.log("除数不能为0");
         process.exit(6);
     }
+    
     console.log(a / b);
     process.exit(0);
 }
