@@ -4,6 +4,9 @@
         button.textContent = text;
         document.body.appendChild(button);
     }
+    var container_1 = document.createElement('div');
+    container_1.classList.add('calculator');
+    document.body.appendChild(container_1);
     var keys = [
         ['Clear', '➗'],
         ['7', '8', '9', '✖️'],
@@ -16,6 +19,6 @@
         textList.forEach(function (text) {
             createButton(text, div);
         });
-        document.body.appendChild(div);
+        container_1.appendChild(div);
     });
 }

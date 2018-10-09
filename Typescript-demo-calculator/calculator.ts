@@ -5,6 +5,10 @@
         document.body.appendChild(button);
     }
 
+    let container = document.createElement('div')
+    container.classList.add('calculator')
+    document.body.appendChild(container)
+
     let keys: Array<Array<string>> = [
         ['Clear','➗'],
         ['7','8','9','✖️'],
@@ -19,7 +23,7 @@
         textList.forEach((text: string)=>{
             createButton(text, div);
         })
-        document.body.appendChild(div)
+        container.appendChild(div)
     })
     
 }
